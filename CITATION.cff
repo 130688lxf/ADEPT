@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "ADEPT: Additive, Dominance and Epistatic Partitioning for Trait-wise allocation"
+message: "If you use this software, please cite the accompanying article."
+type: software
+authors:
+  - family-names: Lv
+    given-names: Xuefeng
+  - family-names: Bao
+    given-names: Quanzhi
+  - family-names: Wang
+    given-names: Zhiyan
+  - family-names: Liu
+    given-names: Chuntong
+  - family-names: Niu
+    given-names: Donghong
+  - family-names: Bai
+    given-names: Zhiyi
+license: MIT
+repository-code: "https://github.com/USERNAME/ADEPT"
+preferred-citation:
+  type: article
+  title: "ADEPT: a calibrated decision system for using dominance and epistasis in genomic mate allocation"
+  journal: "Artificial Intelligence in Agriculture"
+  year: 2026
+  authors:
+    - family-names: Lv
+      given-names: Xuefeng
+    - family-names: Bao
+      given-names: Quanzhi
+    - family-names: Wang
+      given-names: Zhiyan
+    - family-names: Liu
+      given-names: Chuntong
+    - family-names: Niu
+      given-names: Donghong
+    - family-names: Bai
+      given-names: Zhiyi

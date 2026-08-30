@@ -1,0 +1,16 @@
+# Pinning the numerical stack matters here. Variance-component estimates for
+# strongly correlated kernels sit on a nearly flat likelihood ridge, and a
+# different BLAS/LAPACK build can move the reported prediction gain by up to
+# about 0.009. Results are exactly reproducible within one environment; see
+# the note in README.md.
+numpy>=1.24,<3
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+
+# Only needed for the segmentation networks (see docs/MISSING_FILES.md);
+# uncomment if you are running the phenotyping layer.
+# torch>=2.0
+# torchvision>=0.15
+# opencv-python>=4.8
+# pillow>=10.0
